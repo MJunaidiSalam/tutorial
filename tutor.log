@@ -1429,3 +1429,123 @@ Using generated security password: 05e7f09b-ef12-4296-8403-cb6ca00cb5a9
 2019-06-10 10:16:34.548  INFO 8076 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
 2019-06-10 10:16:34.588  INFO 8076 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 7777 (http) with context path ''
 2019-06-10 10:16:34.598  INFO 8076 --- [main] c.example.tutorial.TutorialApplication   : Started TutorialApplication in 2.03 seconds (JVM running for 2.718)
+2019-06-10 11:47:35.568  INFO 7892 --- [main] c.example.tutorial.TutorialApplication   : Starting TutorialApplication on GNRID10PC02SH53 with PID 7892 (D:\1\MyProject\tutorial\target\classes started by IT in D:\1\MyProject\tutorial)
+2019-06-10 11:47:35.568  INFO 7892 --- [main] c.example.tutorial.TutorialApplication   : No active profile set, falling back to default profiles: default
+2019-06-10 11:47:37.198  WARN 7892 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-06-10 11:47:37.228  INFO 7892 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2019-06-10 11:47:37.228  INFO 7892 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1613 ms
+2019-06-10 11:47:37.498  INFO 7892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-10 11:47:37.568  WARN 7892 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-06-10 11:47:37.568  INFO 7892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-10 11:47:37.578  INFO 7892 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-10 11:47:37.588 ERROR 7892 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-06-10 11:49:33.283  INFO 7916 --- [main] c.example.tutorial.TutorialApplication   : Starting TutorialApplication on GNRID10PC02SH53 with PID 7916 (D:\1\MyProject\tutorial\target\classes started by IT in D:\1\MyProject\tutorial)
+2019-06-10 11:49:33.283  INFO 7916 --- [main] c.example.tutorial.TutorialApplication   : No active profile set, falling back to default profiles: default
+2019-06-10 11:49:34.600  WARN 7916 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-06-10 11:49:34.631  INFO 7916 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2019-06-10 11:49:34.631  INFO 7916 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1308 ms
+2019-06-10 11:49:34.943  INFO 7916 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-10 11:49:35.083  WARN 7916 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-06-10 11:49:35.083  INFO 7916 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-10 11:49:35.099  INFO 7916 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-10 11:49:35.099 ERROR 7916 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-06-10 13:39:57.144  INFO 3396 --- [main] c.example.tutorial.TutorialApplication   : Starting TutorialApplication on GNRID10PC02SH53 with PID 3396 (D:\1\MyProject\tutorial\target\classes started by IT in D:\1\MyProject\tutorial)
+2019-06-10 13:39:57.144  INFO 3396 --- [main] c.example.tutorial.TutorialApplication   : No active profile set, falling back to default profiles: default
+2019-06-10 13:39:58.384  WARN 3396 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-06-10 13:39:58.404  INFO 3396 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2019-06-10 13:39:58.404  INFO 3396 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1180 ms
+2019-06-10 13:39:58.594  INFO 3396 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-10 13:39:58.684  WARN 3396 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-06-10 13:39:58.684  INFO 3396 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-10 13:39:58.694  INFO 3396 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-10 13:39:58.694 ERROR 3396 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-06-10 13:43:59.686  INFO 6080 --- [main] c.example.tutorial.TutorialApplication   : Starting TutorialApplication on GNRID10PC02SH53 with PID 6080 (D:\1\MyProject\tutorial\target\classes started by IT in D:\1\MyProject\tutorial)
+2019-06-10 13:43:59.686  INFO 6080 --- [main] c.example.tutorial.TutorialApplication   : No active profile set, falling back to default profiles: default
+2019-06-10 13:44:00.876  WARN 6080 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-06-10 13:44:00.906  INFO 6080 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2019-06-10 13:44:00.906  INFO 6080 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1170 ms
+2019-06-10 13:44:01.146  INFO 6080 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-10 13:44:01.346  WARN 6080 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine suitable jdbc url
+2019-06-10 13:44:01.346  INFO 6080 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-10 13:44:01.346  INFO 6080 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-10 13:44:01.356 ERROR 6080 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine suitable jdbc url
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
