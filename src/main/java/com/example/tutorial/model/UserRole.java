@@ -1,4 +1,4 @@
-package com.example.tutorial.User;
+package com.example.tutorial.model;
 
 public enum UserRole {
     OFFICER,
